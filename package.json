@@ -1,0 +1,31 @@
+{
+  "name": "log-to-elasticsearch-emr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.test*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hth@helixteamhub.cloud:entity/projects/cloud_team/repositories/git/aws"
+  },
+  "keywords": [
+    "lambda",
+    "emr"
+  ],
+  "author": "Entity group",
+  "license": "ISC",
+  "dependencies": {
+    "aws-lambda-testing": "^0.2.2",
+    "aws-sdk": "^2.170.0",
+    "co": "^4.6.0",
+    "co-tchar": "^0.1.2",
+    "elasticsearch": "^14.0.0",
+    "http-aws-es": "^4.0.0"
+  },
+  "devDependencies": {
+    "nock": "^9.1.4",
+    "proxyquire": "^1.8.0"
+  }
+}
